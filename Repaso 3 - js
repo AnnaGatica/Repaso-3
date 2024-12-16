@@ -1,0 +1,86 @@
+//Primer punto del apartado Arreglos
+
+let numeros = [1, 2, 3, 4, 5];
+
+for (let indice = 0; indice < numeros.length; indice++) {
+    console.log(numeros[indice]); 
+}
+
+
+//Punto dos del apartado Arreglos
+
+let numeroos = [10, 20, 30, 40, 50];
+
+let suma = 0
+
+for (let indice = 0; indice < numeroos.length; indice++) {
+    suma = suma + numeroos[indice]; 
+    console.log("La suma de los números es:" + suma);
+}
+
+//Punto tres del apartado Arreglos
+
+let estudiantes = ["Bastian", "Jaz", "Santi", "Tere"];
+
+for (let indice = 0; indice < estudiantes.length; indice++) {
+    console.log("Hola, " + estudiantes[indice] + " ! Bienvenido al curso.");
+}
+
+//Punto cuatro del apartado Arreglos
+
+let colores = ["rojo", "azul", "verde", "amarillo"];
+let colorIngresado = prompt("Por favor, ingresa un color:");
+
+
+for (let index = 0; index < colores.length; index++) {
+   if (colorIngresado = colores[index]) {
+    alert("¡El color " + colorIngresado + " fue encontrado en el arreglo!")
+   }else{
+    alert("El color " + colorIngresado + " no se encuentra en el arreglo.")
+}
+    
+}
+
+//Primer punto de los ejercicios intermedios
+
+let numerosEnteros = [15, 22, 8, 17, 30, 11, 40, 5, 2, 60];
+
+for (let indice = 0; indice < numerosEnteros.length; indice++) {
+    if (numerosEnteros[indice] % 2 === 0) {  
+        console.log(numerosEnteros[indice])
+    }
+}
+
+//Punto dos de los ejercicios intermedios
+
+let calificaciones = [85, 90, 78, 92, 88];
+let sumaa = 0
+let promedio = suma / calificaciones.length;
+
+for (let indice = 0; indice < calificaciones.length; indice++) {
+    suma = suma + calificaciones[indice]; 
+    console.log("El promedio de las calificaciones es:" + promedio);
+}
+
+//Punto tres de los ejercicios intermedios
+
+let original = [1, 2, 3, 4, 5];
+let invertido = [];
+
+for (let indice = original.length - 1; indice >= 0; indice--) {
+   invertido.push(original[indice]);  
+   console.log(""+  invertido);
+
+}
+
+//Punto cuatro de los ejercicios intermedios
+
+let edades = [18, 22, 15, 30, 25, 10, 40];
+let contador = 0
+
+for (let indice = 0; indice < edades.length; indice++) {
+    if (edades[indice] > 18) {
+        contador++
+        console.log("Cantidad de elementos mayores a 18:", contador);
+   }
+}
